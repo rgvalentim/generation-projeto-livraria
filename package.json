@@ -1,0 +1,27 @@
+{
+  "name": "generation-projeto-ecommerce",
+  "version": "1.0.0",
+  "description": "Projeto de e-commerce",
+  "homepage": "https://github.com/rgvalentim/generation-projeto-ecommerce#readme",
+  "bugs": {
+    "url": "https://github.com/rgvalentim/generation-projeto-ecommerce/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgvalentim/generation-projeto-ecommerce.git"
+  },
+  "license": "ISC",
+  "author": "Robson Valentim",
+  "type": "commonjs",
+  "main": "Menu.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^25.0.1",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
+  }
+}
