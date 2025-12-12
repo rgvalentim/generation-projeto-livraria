@@ -1,8 +1,17 @@
 import readlinesync = require("readline-sync");
+import { Livro } from "./src/models/Livro";
+import { LivroFisico } from "./src/models/LivroFisico";
+import { LivroDigital } from "./src/models/LivroDigital";
 
 export function main() {
 
     let opcao: number;
+
+   //Objeto da classe LivroFisico
+   const livroFisico: LivroFisico = new LivroFisico(2, "Morte e vida Severina", "Joao Cabaral de Melo Neto", "Companhia das Letras", 39.90, 200)
+   livroFisico.visualizar();
+   const livroDigital: LivroDigital = new LivroDigital(3, "Capitaes da Areia", "Jorge Amado", "Companhia das Letras", 39.90, "EPUB")
+   livroDigital.visualizar();
 
     while (true) {
 
